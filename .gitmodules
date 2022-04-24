@@ -1,0 +1,3 @@
+[submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Kidnapped-Vehicle"]
+	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Kidnapped-Vehicle
+	url = https://github.com/pabaq/CarND-Kidnapped-Vehicle.git
