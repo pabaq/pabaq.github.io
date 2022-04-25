@@ -94,11 +94,3 @@
     <meta itemprop="keywords" content="{{ _keywords }}">
   {%- endif -%}
 {%- endif -%}
-
-{%- assign _project = include.article.project -%}
-{%- if _author and _project -%}
-  <div class="article__info--github">
-    <a class="button button--secondary button--rounded button--sm" 
-      href="https://github.com/{{ site.author.github }}/{{ _project }}"><i class="fab fa-github"></i> View on Github</a>
-  </div>
-{%- endif -%}

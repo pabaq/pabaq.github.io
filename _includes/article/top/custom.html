@@ -1,3 +1,14 @@
 <!-- start custom article top snippet -->
 
+<!-- Add "View on Github" button for projects -->
+{%- assign _author = site.data.authors[include.article.author] | default: site.author -%}
+{%- assign _project = include.article.project -%}
+
+{%- if _author and _project -%}
+  <div class="mt-3">
+    <a class="button button--secondary button--rounded button--sm" 
+      href="https://github.com/{{ site.author.github }}/{{ _project }}"><i class="fab fa-github"></i> View on Github</a>
+  </div>
+{%- endif -%}
+
 <!-- end custom article top snippet -->
