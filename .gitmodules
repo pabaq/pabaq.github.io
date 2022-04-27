@@ -7,3 +7,6 @@
 [submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Traffic-Sign-Classifier"]
 	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Traffic-Sign-Classifier
 	url = https://github.com/pabaq/CarND-Traffic-Sign-Classifier.git
+[submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Advanced-Lane-Finding"]
+	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Advanced-Lane-Finding
+	url = https://github.com/pabaq/CarND-Advanced-Lane-Finding.git
