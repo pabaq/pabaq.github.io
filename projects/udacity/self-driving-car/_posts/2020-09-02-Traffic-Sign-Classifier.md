@@ -1,0 +1,9 @@
+---
+title: "Project: Traffic Sign Classifier"
+tags: udacity self-driving-car deep-learning cnn tensorflow
+excerpt: Traffic sign classification by a convolutional neural network build with tensorflow 
+cover: /assets/images/covers/traffic-sign-classifier.jpg
+project: CarND-Traffic-Sign-Classifier
+---
+
+{% include_relative submodules/{{ page.project }}/README.md %}
