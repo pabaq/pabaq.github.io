@@ -56,6 +56,12 @@ layout: page
         source0=layout.articles.show_cover source1=page.articles.show_cover -%}
       {%- assign _show_cover = __return -%}
 
+      <!-- Introduce cover_type: card|image --> 
+      {%- include snippets/assign.html
+        target=site.data.variables.default.page.articles.cover_type
+        source0=layout.articles.cover_type source1=page.articles.cover_type -%}
+      {%- assign _cover_type = __return -%}
+
       {%- include snippets/assign.html
         target=site.data.variables.default.page.articles.show_excerpt
         source0=layout.articles.show_excerpt source1=page.articles.show_excerpt -%}
@@ -77,7 +83,7 @@ layout: page
 
       {%- include article-list.html articles=_articles type='item'
         article_type=_article_type
-        show_cover=_show_cover cover_size=_cover_size
+        show_cover=_show_cover cover_size=_cover_size cover_type=_cover_type
         show_excerpt=_show_excerpt excerpt_type=_excerpt_type
         show_readmore=_show_readmore show_info=_show_info -%}
 

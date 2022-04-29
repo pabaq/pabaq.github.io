@@ -6,5 +6,7 @@ articles:
   show_excerpt: true
   show_readmore: true
   show_info: true
+  cover_type: card
+  cover_size: lg
 ---
 

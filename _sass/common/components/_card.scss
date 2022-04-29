@@ -33,7 +33,7 @@
   width: 100%;
   & > img {
     display: block;
-    width: 100%;
+    max-width: 100%;  // width: 100%; For correct card formatting in articles
     height: auto;
     border-radius: inherit;
   }
