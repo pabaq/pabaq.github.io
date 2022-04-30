@@ -48,7 +48,8 @@
           {%- if include.cover_type == 'card' -%}
             <a href="{{ _article_url }}">
               <div class="item__image">
-                <div class="card card--clickable">
+                <!-- max-width: fit-content, so that the box does not extend the image size --> 
+                <div class="card card--clickable" style="max-width: fit-content">
                   <div class="card__image">
                     {%- if include.cover_size == 'lg' -%}
                       <img class="image image--lg" src="{{ _article_cover }}" />
