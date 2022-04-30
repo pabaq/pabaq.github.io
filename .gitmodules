@@ -10,3 +10,6 @@
 [submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Advanced-Lane-Finding"]
 	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Advanced-Lane-Finding
 	url = https://github.com/pabaq/CarND-Advanced-Lane-Finding.git
+[submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Behavioral-Cloning"]
+	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Behavioral-Cloning
+	url = https://github.com/pabaq/CarND-Behavioral-Cloning.git
