@@ -26,7 +26,7 @@ html,
     display: none;
     & > aside {
       position: absolute;
-      width: map-get($layout, aside-width);
+      width: map-get($layout, aside-fit-content);  // Prevent legend cut off
       @include overflow(hidden);
     }
   }
