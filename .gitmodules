@@ -13,3 +13,6 @@
 [submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Behavioral-Cloning"]
 	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Behavioral-Cloning
 	url = https://github.com/pabaq/CarND-Behavioral-Cloning.git
+[submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-PID-Controller"]
+	path = projects/udacity/self-driving-car/_posts/submodules/CarND-PID-Controller
+	url = https://github.com/pabaq/CarND-PID-Controller.git

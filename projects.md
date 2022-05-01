@@ -7,6 +7,6 @@ articles:
   show_readmore: true
   show_info: true
   cover_type: card
-  cover_size: lg
+  cover_size: md
 ---
 
