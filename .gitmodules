@@ -16,3 +16,6 @@
 [submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-PID-Controller"]
 	path = projects/udacity/self-driving-car/_posts/submodules/CarND-PID-Controller
 	url = https://github.com/pabaq/CarND-PID-Controller.git
+[submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Extended-Kalman-Filters"]
+	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Extended-Kalman-Filters
+	url = https://github.com/pabaq/CarND-Extended-Kalman-Filters.git
