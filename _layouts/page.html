@@ -30,7 +30,8 @@ layout: base
 
 {%- assign _article_header_excerpt_truncate = include.excerpt_truncate | default: 200 -%}
 
-{%- if page.sidebar -%}
+<!-- Introduce page.sidebar.show: true|false --> 
+{%- if page.sidebar and page.sidebar.show -%}  
 <div class="layout--page layout--page--sidebar clearfix js-page-root">
   <div class="page__mask d-print-none js-page-mask js-sidebar-hide"></div>
   <div class="page__viewport">

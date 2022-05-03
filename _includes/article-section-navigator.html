@@ -30,8 +30,23 @@
   {%- endif -%}
 
 {%- else -%}
+  {%- comment -%} New: Only consider non-project posts (Blog posts) {%- endcomment -%}
   {%- assign _previous = page.previous -%}
   {%- assign _next = page.next -%}
+  {%- for _post in site.posts -%}
+    {%- unless _previous.project -%}
+      {%- break -%}
+    {%- else -%}
+      {%- assign _previous = _previous.previous -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  {%- for _post in site.posts -%}
+    {%- unless _next.project -%}
+      {%- break -%}
+    {%- else -%}
+      {%- assign _next = _next.next -%}
+    {%- endunless -%}
+  {%- endfor -%}    
 {%- endif -%}
 
 {%- if _next or _previous -%}

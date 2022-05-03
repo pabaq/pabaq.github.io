@@ -1,23 +1,27 @@
 header:
+#  - title: Blog
+#    url: /blog
   - title: Projects
     url: /projects
   - title: Archive
     url: /archive.html
-  - title: About
-    url: /about
+#  - title: CV
+#    url: /cv
 
 projects-carnd:
   - title: Self Driving Car ND
     children:
-    - title: Advanced Lane Finding
-      url: projects/udacity/self-driving-car/2020/08/02/Advanced-Lane-Finding.html
-    - title: Traffic Sign Classifier
-      url: projects/udacity/self-driving-car/2020/09/02/Traffic-Sign-Classifier.html
-    - title: Behavioral Cloning
-      url: projects/udacity/self-driving-car/2020/09/28/Behavioral-Cloning.html
-    - title: Kidnapped Vehicle
-      url: projects/udacity/self-driving-car/2020/12/16/Particle-Filter.html
-    - title: Path Planning
-      url: projects/udacity/self-driving-car/2021/07/28/Path-Planning.html
     - title: PID Controller
       url: projects/udacity/self-driving-car/2021/10/21/PID-Controller.html
+    - title: Path Planning
+      url: projects/udacity/self-driving-car/2021/07/28/Path-Planning.html
+    - title: Kidnapped Vehicle
+      url: projects/udacity/self-driving-car/2020/12/16/Particle-Filter.html
+    - title: Extended Kalman Filters
+      url: projects/udacity/self-driving-car/2020/10/21/Extend-Kalman-Filters.html
+    - title: Behavioral Cloning
+      url: projects/udacity/self-driving-car/2020/09/28/Behavioral-Cloning.html
+    - title: Traffic Sign Classifier
+      url: projects/udacity/self-driving-car/2020/09/02/Traffic-Sign-Classifier.html
+    - title: Advanced Lane Finding
+      url: projects/udacity/self-driving-car/2020/08/02/Advanced-Lane-Finding.html
