@@ -11,6 +11,8 @@ header:
 projects-carnd:
   - title: Self Driving Car ND
     children:
+    - title: System Integration
+      url: projects/udacity/self-driving-car/2022/01/22/System-Integration.html
     - title: PID Controller
       url: projects/udacity/self-driving-car/2021/10/21/PID-Controller.html
     - title: Path Planning
