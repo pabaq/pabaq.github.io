@@ -19,3 +19,6 @@
 [submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-Extended-Kalman-Filters"]
 	path = projects/udacity/self-driving-car/_posts/submodules/CarND-Extended-Kalman-Filters
 	url = https://github.com/pabaq/CarND-Extended-Kalman-Filters.git
+[submodule "projects/udacity/self-driving-car/_posts/submodules/CarND-System-Integration"]
+	path = projects/udacity/self-driving-car/_posts/submodules/CarND-System-Integration
+	url = https://github.com/pabaq/CarND-System-Integration.git
