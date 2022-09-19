@@ -198,6 +198,7 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - /projects/udacity/self-driving-car/_posts/submodules/CarND-System-Integration/ros/src/CMakeLists.txt
 
 defaults:
   - scope:
